@@ -248,11 +248,13 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
-  ul.menu-nav, div.menu-branding {
+  ul.menu-nav,
+  div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0; }
-    ul.menu-nav.show, div.menu-branding.show {
+    ul.menu-nav.show,
+    div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
     height: 75vh;
@@ -266,7 +268,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
